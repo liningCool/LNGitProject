@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  # spec.license      = "MIT (example)"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -55,7 +55,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "lonnyCool" => "15072187805@163.com" }
   # Or just: spec.author    = "lonnyCool"
-  # spec.authors            = { "lonnyCool" => "15072187805@163.com" }
+    spec.authors            = { "lonnyCool" => "15072187805@163.com" }
   # spec.social_media_url   = "https://twitter.com/lonnyCool"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+    spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "LNGitProject/LNGitProjectClasses/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "Classes", "LNGitProject/LNGitProject/Classes/**/*.{h,m}"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
