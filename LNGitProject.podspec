@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LNGitProject"
-  spec.version      = "v0.0.1"
+  spec.version      = "0.0.1"
   spec.summary      = "A short description of LNGitProject."
 
   # This description is used to generate tags and improve search results.
